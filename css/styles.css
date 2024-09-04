@@ -1,1 +1,74 @@
 /* Add custom css styles here */
+#hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: auto;
+    width: auto;
+    border-radius: 5%;
+    padding: 2%;
+    font-size: x-large;
+}
+.heroimg {
+    background-image: url("http://127.0.0.1:5500/images/coffee-biscuits.jpg");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+h2, h3, p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-divider {
+    height: 20px;
+    border-width: 1px 0;
+  }
+
+#cookie-images {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    min-width: 50%;
+}
+
+#about-us-picture {
+    border-radius: 50%;
+    min-width: 50%;
+    scale: 50%;
+}
+
+.About-Us {
+    background-color: #adadad5a;
+}
+
+footer {
+    background-color: blue;
+    color: white;
+    padding: 2.5%;
+    font-size: x-large;
+}
+
+#bakers-text {
+    display: flex;
+    width:100%;
+    font-size: larger;
+}
+  /* h3, img, p {
+    display: flex;
+    justify-content: center; align horizontal 
+    align-items: center; 
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+} */
